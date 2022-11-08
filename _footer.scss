@@ -1,0 +1,10 @@
+footer{
+    background-color: #626262;
+    height: 100px;
+    @include flex;
+    p{
+        span{
+            font-weight: bolder;
+        }
+    }
+}

@@ -1,0 +1,58 @@
+@mixin flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin em1{
+    font-size: 1em;
+}
+
+main{
+    @include flex;
+    flex-direction: column;
+    h2{
+        font-size: 2em;
+    }
+    section{
+        @include flex;
+        .box{
+            width: 200px;
+            height: 500px;
+            background-color: $div-background;
+            border-right: 3px solid $border-right ;
+            background-image: url('autko.jpg');
+            margin-top: 10px;
+            margin-left: 30px;
+            margin-bottom: 5px;
+            p{
+                font-family: lato;
+                text-align: center;
+                @include em1;
+            }
+        }
+        .box:hover{
+            width: 210px;
+            height: 510px;
+            transition: 0.3s;
+        }
+        
+    }
+    article{
+        margin-left: auto;
+        margin-right: auto;
+        width: 600px;
+        p{
+            text-align: center;
+            @include em1;
+        }
+    }
+    button{
+        width: 200px;
+        height: 50px;
+        background-color: $button-color;
+        border-radius: 30px;
+        a{
+            text-decoration: none;
+        }
+    }
+}

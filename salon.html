@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bartosz Kołodziej</title>
+</head>
+<body>
+
+    <!-- 1. Tworzymy strone interntowa dla salonu samochodwoego wykorzystując scss
+    2. Strona musi zawierac informacje: 
+        - baner: zdjęcie do wstawienia https://cdn.pixabay.com/photo/2015/05/28/23/12/auto-788747_960_720.jpg przeźroczystośc obrazu 0.4 oraz tekst w naglowku 1: Znajdz wymarzony samochód font: rozmiar 3 razy większy niż rozmiar fonta okreslonego w rodzicu, kolor #
+        rozmiary baneru: szerokośc 1200px wysokość: 400px. 
+        - pod banerem napis w nagłowku stopnia 2: wybierz samochód dla siebie! - rozmiar fonta 2 razy wiekszy od rozmiaru fonta okreslonego w rodzicu
+        - pod napisem trzy prostokąty w rozmiarze szerokosc: 200px wysokośc: 500px  w  każdym z prostokątów ostylowanie: tło: #040200 z prawej strony każdego ptostokąta prostokąta musi pojawić sie obramowanie o grubości 3px w kolorze #a2a2a2, linia ciągła. W prostokątach mają się pojawić: zdjęcie z baneru i tekst: 
+          baner 1: Najlepsze samochody wyścigowe 
+          baner 2: Najlepsze samochody dla Twojej rodziny 
+          baner 3: Najlepsze samochody dla singli
+        Napisy we wszystkich banerach powinny mieć rozmiar taki sam jak ustawiony font w rodzicu, krój fonta to Lato, odległość od brzegów prostokąta to od góry 10px, z prawej i lewej strony 30px i 5px od dołu. 
+        Po najechaniu na prostokąt myszką, powiększa się on do rozmiarów: 210-510px
+        - Pod prostokątami pojawia się tekst - tutaj mozna wpisać lorem ipsum *5 - tekst wyśrodkowany - rozmiar fonta taki jak w prostokątach powyżej. 
+        - Pod tekstem pojawia się zachęcenie do kontaktu: przycisk w kolorze jak obramowanie prostokątów z prawej strony. Na przycisku numer telefonu (dowolny) - klikamy i od razu uzyskujemy połaczenie 
+        - Na dole strony stopka - kolor #626262 - na środku stopki imię i nazwisko twórcy strony. 
+
+        Calą stronę stylujemy wykorzystując scss - poszczególne rlrlrmnty strony rozdzielamy do osobnych plików, nie powtarzamy kodu! 
+        
+    -->
+    
+
+    <header>
+        <div class="baner"></div>
+        <h1>Znajdz wymarzony samochód</h1>
+    </header>
+    <main>
+        <h2>wybierz samochód dla siebie!</h2>
+       <section>
+        <div class="box1 box"><p>Najlepsze samochody wyścigowe </p></div>
+        <div class="box2 box"><p>Najlepsze samochody dla Twojej rodziny </p></div>
+        <div class="box3 box"><p>Najlepsze samochody dla singli</p></div>
+       </section>
+       <article>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam iure at ea, nemo tempore laboriosam aspernatur magnam error atque commodi nesciunt eum aperiam voluptatum dolor, nobis, molestias quidem deleniti quos!
+            Adipisci temporibus, eius earum dolore doloremque, delectus fugiat neque consectetur nihil cupiditate corrupti? Incidunt ipsa totam, asperiores nihil molestias tempore illo magni est ratione eius, cupiditate porro voluptate? Assumenda, saepe.
+            Explicabo pariatur ad rerum debitis, rem voluptatibus tempora impedit eos eligendi ea perspiciatis omnis odit quidem cum numquam laboriosam reprehenderit sit aut magnam natus. Cupiditate culpa ut eligendi eius voluptates!
+            Nostrum maiores voluptate magni ut, molestiae eligendi facilis exercitationem ipsa aut repudiandae ullam asperiores impedit quae vero assumenda, illo qui! Corporis repudiandae maxime sed inventore perspiciatis consequatur autem impedit libero!
+            Dolorum officia sint, perspiciatis, dicta quibusdam repudiandae ullam delectus doloremque rerum ipsa iure quam nesciunt fugiat est aliquam quod accusantium nulla laborum dolor eligendi! Voluptate aut atque aspernatur temporibus magni.</p>
+       </article>
+       <button><a href="tel:123123123">Zadzwoń na tel.: 123123123</a></button>
+    </main>
+    <footer>
+        <p>Autor strony: Bartosz Kołodziej</p>
+    </footer>
+</body>
+</html>

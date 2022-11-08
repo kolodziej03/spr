@@ -1,0 +1,105 @@
+header .baner {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 400px;
+    background-image: url('autko.jpg');
+    opacity: 0.4;
+    background-size: cover;
+}
+
+header h1 {
+        font-size: 3em;
+        color: #ff0000;
+        opacity: 100%;
+        position: absolute;
+        left: 28%;
+        bottom: 70%;
+}
+
+main {
+  display: flex;
+justify-content: center;
+ align-items: center;
+flex-direction: column;
+}
+
+main h2 {
+  font-size: 2em;
+}
+
+main section {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+main section .box {
+  width: 200px;
+  height: 500px;
+  background-color: #040200;
+  border-right: 3px solid #626262;
+  background-image: url("autko.jpg");
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-bottom: 5px;
+}
+
+main section .box p {
+  font-family: lato;
+  text-align: center;
+  font-size: 1em;
+}
+
+main section .box:hover {
+  width: 210px;
+  height: 510px;
+  transition: 0.3s;
+}
+
+main article {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+
+main article p {
+  text-align: center;
+  font-size: 1em;
+}
+
+main button {
+  width: 200px;
+  height: 50px;
+  background-color: #a2a2a2;
+  border-radius: 30px;
+}
+
+main button a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: #626262;
+  height: 100px;
+  display: flex;
+          justify-content: center;
+          align-items: center;
+}
+
+footer p span {
+  font-weight: bolder;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: lato;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=style.css.map */
